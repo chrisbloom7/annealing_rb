@@ -4,6 +4,9 @@ version = "0.1.0"
 authors = ["Luis Ezcurdia Razo <ing.ezcurdia@gmail.com>"]
 edition = "2020"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "annealing"
+crate-type = ["cdylib"]
 
 [dependencies]
+rutie = "0.7.0"

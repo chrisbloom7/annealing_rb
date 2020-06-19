@@ -1,3 +1,3 @@
-fn main() {
-    println!("Hello, world!");
-}
+extern crate rutie;
+
+fn main() {}
